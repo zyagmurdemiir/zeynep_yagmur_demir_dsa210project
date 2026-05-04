@@ -22,6 +22,39 @@ The dataset consists of products from the following categories:
 - Compared average prices across categories
 - Visualized category distribution and price differences
 
+## Detailed Results
+
+- Total number of products: 1038
+- Dresses & Jumpsuits: 643 products
+- Knitwear: 228 products
+- Tops & Bodysuits: 108 products
+- Skirts: 59 products
+
+### Average Prices
+
+- Dresses & Jumpsuits: 4415.51
+- Skirts: 3395.08
+- Knitwear: 3318.07
+- Tops & Bodysuits: 2654.81
+
+### Keyword Counts
+
+- "dress": 572
+- "knit": 278
+- "top": 157
+- "skirt": 59
+
+## Visualizations
+
+### Category Distribution
+![Category Distribution](category_distribution.png)
+
+### Average Price by Category
+![Average Price](average_price_by_category.png)
+
+### Keyword Frequency
+![Keyword Frequency](keyword_frequency.png)
+
 ## Initial Findings
 - Dresses are the most common category in the dataset
 - Dresses have the highest average price
