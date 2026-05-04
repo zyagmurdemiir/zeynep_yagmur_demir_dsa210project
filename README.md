@@ -68,3 +68,32 @@ Products associated with popular fashion trends appear more frequently in the da
 - Improve analysis
 - Add trend-based data (Google Trends)
 - Apply machine learning methods
+
+## Machine Learning
+
+In this stage, I built a classification model to predict the product category based on product names.
+
+### Method
+
+- Product names were converted into numerical features using **CountVectorizer**
+- The dataset was split into training and testing sets (80% / 20%)
+- A **Multinomial Naive Bayes** model was used for classification
+
+### Results
+
+- Model Accuracy: **0.90**
+
+### Performance by Category
+
+- Dresses: F1-score = 0.94 (highest performance)
+- Knitwear: F1-score = 0.84
+- Skirts: F1-score = 0.83
+- Tops: F1-score = 0.79 (lowest performance)
+
+### Interpretation
+
+The model performs well overall, showing that product names contain strong information about their category. In particular, dresses are very easy to identify from text.
+
+However, categories like tops are more difficult to classify, likely because the term “top” is more general and overlaps with other categories.
+
+These results suggest that text-based features are useful for predicting fashion categories, but additional features or external data could further improve performance.
