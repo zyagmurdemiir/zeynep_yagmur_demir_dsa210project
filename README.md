@@ -114,3 +114,13 @@ This enrichment step provided external validation for the hypothesis and strengt
 
 ### Google Trends Comparison
 ![Google Trends Comparison](google_trends_comparison.png)
+
+## Final Project Submission
+
+This repository contains the final submission for the DSA 210 project, including:
+
+- exploratory data analysis (EDA)
+- data visualizations
+- machine learning classification
+- Google Trends enrichment
+- final report
