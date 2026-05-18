@@ -97,3 +97,20 @@ The model performs well overall, showing that product names contain strong infor
 However, categories like tops are more difficult to classify, likely because the term “top” is more general and overlaps with other categories.
 
 These results suggest that text-based features are useful for predicting fashion categories, but additional features or external data could further improve performance.
+
+## Google Trends Enrichment
+
+Google Trends data was used as an external source to compare dataset frequencies with real-world search popularity.
+
+Average search interest was calculated for the following keywords:
+- dress
+- knitwear
+- skirt
+- top
+
+The results showed that “dress” had the highest search interest, which aligns with the dataset analysis where dresses were also the dominant category.
+
+This enrichment step provided external validation for the hypothesis and strengthened the relationship between dataset frequency and real-world popularity trends.
+
+### Google Trends Comparison
+![Google Trends Comparison](google_trends_comparison.png)
